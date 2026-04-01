@@ -25,7 +25,11 @@ export default function Card() {
         </p>
 
         {/* Button */}
-        <button className="group inline-flex items-center gap-2 text-[12px] font-medium tracking-[0.12em] uppercase text-[#B7935A] border border-[#B7935A] rounded-[2px] px-5 py-2.5 bg-transparent hover:bg-[#B7935A] hover:text-white transition-colors duration-150">
+        <a 
+        href="https://tail-wind-card.vercel.app"
+  target="_blank"
+  rel="noopener noreferrer"
+        className="group inline-flex items-center gap-2 text-[12px] font-medium tracking-[0.12em] uppercase text-[#B7935A] border border-[#B7935A] rounded-[2px] px-5 py-2.5 bg-transparent hover:bg-[#B7935A] hover:text-white transition-colors duration-150">
           Explore More
           <svg
             className="w-3 h-3 transition-transform duration-150 group-hover:translate-x-0.5"
@@ -41,7 +45,7 @@ export default function Card() {
               strokeLinejoin="round"
             />
           </svg>
-        </button>
+        </a>
 
       </div>
     </div>
